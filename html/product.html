@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="/fontawesome-free-6.2.1-web/css/all.min.css">
+    <title>Categoris and Products</title>
+</head>
+
+<body style="color: rgba(0,0,0,.8);">
+    <nav style="width: 100%; height: 30px;">
+        <div class="row">
+            <div class="col-md-6">
+                <p style="padding-left: 20px;font-family: cursive;"><span style="font-family: cursive;">Hệ Thống Store |
+                        Mua
+                        hàng
+                        : </span><span style="color: red; padding-left: 10px; font-weight: 700; font-family: cursive;">
+                        0128465139</span></p>
+            </div>
+            <div class="col-md-6">
+                <div class="icon" style="padding-left: 500px;">
+                    <a href="login.html" style="color: black; text-decoration: none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" fill="currentColor"
+                            class="bi bi-person-fill" viewBox="0 0 16 16" style="padding-bottom: 2px;">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                        </svg>
+                    </a>
+                    <span style="padding-left: 0px; font-size: 14px; font-family: cursive;">Tài Khoản | </span>
+                    <a href="cart.html" style="color: black; text-decoration: none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-bag-check-fill" viewBox="0 0 16 16" style="padding-bottom: 2px;">
+                            <path fill-rule="evenodd"
+                                d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z" />
+                        </svg>
+                    </a>
+                    <span style="padding-left: 0px; font-size: 14px; font-family: cursive;">Giỏ Hàng</span>
+                    <span style="color: red;">(</span> <span style="color: red;">0</span> <span
+                        style="color: red;">)</span>
+                </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="padding-top: 0; padding-bottom: 0;">
+        <div class="container-fluid" style="background-color: gray; height: 70px;">
+            <a class="navbar-brand" href="home.html" style="font-size: 27px; font-family: cursive; color: white;">Kamen
+                Rider
+                Fandom</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"
+                            style="font-weight: bold; font-family: cursive; color: white;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="font-weight: bold;font-family: cursive; color: white;">Story
+                            Action</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" style="font-weight: bold;font-family: cursive; color: white;">
+                            Dowload Picture
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"
+                                    style="font-weight: bold;font-family: cursive; color: black;">Action</a></li>
+                            <li><a class="dropdown-item" href="#"
+                                    style="font-weight: bold;font-family: cursive; color: black;">Suit</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#"
+                                    style="font-weight: bold;font-family: cursive; color: black;">Artist</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                <a class="nav-link disabled" style="font-weight: bold;">Disabled</a>
+              </li> -->
+                </ul>
+                <form class="d-flex" role="search" style="width: 50%;">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                        style="font-family: cursive;">
+                    <button class="btn btn-outline-light" style="color: black; font-family: cursive;"
+                        type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" style="padding-top: 50px; padding-bottom: 50px;">
+        <div class="row">
+            <div class="col-md-2" style="justify-content: center; align-items: center; display: flex;">
+                <h4>Nhà Sản Xuất</h4>
+            </div>
+            <div class="col-md-10" style="display: flex; align-items: center; justify-content: center;">
+                <h4>Sản Phẩm</h4>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 20px;">
+            <div class="col-md-2" style="padding-top: 50px;">
+                <div class="nav nav-pills flex-column" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="pill" data-bs-target="#nav-home"
+                        type="button" role="tab" aria-controls="nav-home" aria-selected="true">Bandai Namco</button>
+                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="pill" data-bs-target="#nav-profile"
+                        type="button" role="tab" aria-controls="nav-profile" aria-selected="false">MegaHouse</button>
+                    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="pill" data-bs-target="#nav-contact"
+                        type="button" role="tab" aria-controls="nav-contact" aria-selected="false">ArtSpirit</button>
+                    <button class="nav-link" id="nav-content-tab" data-bs-toggle="pill" data-bs-target="#nav-content"
+                        type="button" role="tab" aria-controls="nav-content" aria-selected="false">MegaHouse</button>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+                        tabindex="0">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="img-fluid" src="/img/a1.jpg" alt="" style="border-radius: 2%;">
+                                <div class="text-center">
+                                    <h3>Kamen Rider Build</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="img-fluid" src="/img/a1.jpg" alt="" style="border-radius: 2%;">
+                                <div class="text-center">
+                                    <h3>Kamen Rider Build</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="img-fluid" src="/img/a1.jpg" alt="" style="border-radius: 2%;">
+                                <div class="text-center">
+                                    <h3>Kamen Rider Build</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="img-fluid" src="/img/a1.jpg" alt="" style="border-radius: 2%;">
+                                <div class="text-center">
+                                    <h3>Kamen Rider Build</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
+                        tabindex="0">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="img-fluid" src="/img/a2.jfif" alt="" style="border-radius: 2%;">
+                                <div class="text-center">
+                                    <h3>Kamen Rider Crocodile</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="img-fluid" src="/img/a2.jfif" alt="" style="border-radius: 2%;">
+                                <div class="text-center">
+                                    <h3>Kamen Rider Crocodile</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="img-fluid" src="/img/a2.jfif" alt="" style="border-radius: 2%;">
+                                <div class="text-center">
+                                    <h3>Kamen Rider Crocodile</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="img-fluid" src="/img/a2.jfif" alt="" style="border-radius: 2%;">
+                                <div class="text-center">
+                                    <h3>Kamen Rider Crocodile</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"
+                        tabindex="0">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="img-fluid" src="/img/a3.jfif" alt="" style="border-radius: 2%;">
+                                <div class="text-center">
+                                    <h3>Kamen Rider Cross Z</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="img-fluid" src="/img/a3.jfif" alt="" style="border-radius: 2%;">
+                                <div class="text-center">
+                                    <h3>Kamen Rider Cross Z</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="img-fluid" src="/img/a3.jfif" alt="" style="border-radius: 2%;">
+                                <div class="text-center">
+                                    <h3>Kamen Rider Cross Z</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="img-fluid" src="/img/a3.jfif" alt="" style="border-radius: 2%;">
+                                <div class="text-center">
+                                    <h3>Kamen Rider Cross Z</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-content" role="tabpanel" aria-labelledby="nav-contact-tab"
+                        tabindex="0">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="img-fluid" src="/img/a4.jpg" alt="" style="border-radius: 2%;">
+                                <div class="text-center">
+                                    <h3>Kamen Rider Wizzard</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="img-fluid" src="/img/a4.jpg" alt="" style="border-radius: 2%;">
+                                <div class="text-center">
+                                    <h3>Kamen Rider Wizzard</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="img-fluid" src="/img/a4.jpg" alt="" style="border-radius: 2%;">
+                                <div class="text-center">
+                                    <h3>Kamen Rider Wizzard</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="img-fluid" src="/img/a4.jpg" alt="" style="border-radius: 2%;">
+                                <div class="text-center">
+                                    <h3>Kamen Rider Wizzard</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Presents By Tokusatsu</h5>
+
+                    <p>
+                        Tokusatsu (特撮とくさつ, lit. 'special effects') is a Japanese term for live action film or
+                        television
+                        drama
+                        that makes heavy use of practical special effects. Tokusatsu entertainment mainly refers to
+                        science
+                        fiction, war, fantasy, or horror media featuring such technology but is sometimes dubbed a
+                        genre
+                        itself.
+                        The most popular subgenres of tokusatsu include kaiju such as the Godzilla and Gamera
+                        series;
+                        superhero
+                        such as the Kamen Rider and Metal Hero series; and mecha like Giant Robo and Super Robot Red
+                        Baron. Some
+                        tokusatsu television programs combine several of these subgenres, for example the Ultraman
+                        and
+                        Super
+                        Sentai series.
+                    </p>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0" style="padding-left: 140px;">
+                    <h5 class="text-uppercase">TV Series</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-white">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="https://en.wikipedia.org/wiki/Kamen_Rider">en.wikipedia.org/wiki/Kamen_Rider</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <script>
+        $('input.input-qty').each(function () {
+            var $this = $(this),
+                qty = $this.parent().find('.is-form'),
+                min = Number($this.attr('min')),
+                max = Number($this.attr('max'))
+            if (min == 0) {
+                var d = 0
+            } else d = min
+            $(qty).on('click', function () {
+                if ($(this).hasClass('minus')) {
+                    if (d > min) d += -1
+                } else if ($(this).hasClass('plus')) {
+                    var x = Number($this.val()) + 1
+                    if (x <= max) d += 1
+                }
+                $this.attr('value', d).val(d)
+            })
+        })
+    </script>
+</body>
+
+</html>

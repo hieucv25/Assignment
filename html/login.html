@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">
+</head>
+
+<body>
+  <nav style="width: 100%; height: 30px;">
+    <div class="row">
+      <div class="col-md-6">
+        <p style="padding-left: 20px;font-family: cursive;"><span style="font-family: cursive;">Hệ Thống Store | Mua
+            hàng
+            : </span><span style="color: red; padding-left: 10px; font-weight: 700; font-family: cursive;">
+            0128465139</span></p>
+      </div>
+      <div class="col-md-6">
+        <div class="icon" style="padding-left: 500px;">
+          <a href="login.html" style="color: black; text-decoration: none;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" fill="currentColor" class="bi bi-person-fill"
+              viewBox="0 0 16 16" style="padding-bottom: 2px;">
+              <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+            </svg>
+          </a>
+          <span style="padding-left: 0px; font-size: 14px; font-family: cursive;">Tài Khoản | </span>
+          <a href="cart.html" style="color: black; text-decoration: none;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-bag-check-fill" viewBox="0 0 16 16" style="padding-bottom: 2px;">
+              <path fill-rule="evenodd"
+                d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z" />
+            </svg>
+          </a>
+          <span style="padding-left: 0px; font-size: 14px; font-family: cursive;">Giỏ Hàng</span>
+        </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="padding-top: 0; padding-bottom: 0;">
+    <div class="container-fluid" style="background-color: gray; height: 70px;">
+      <a class="navbar-brand" href="home.html" style="font-size: 27px; font-family: cursive; color: white;">Kamen Rider
+        Fandom</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"
+              style="font-weight: bold; font-family: cursive; color: white;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="font-weight: bold;font-family: cursive; color: white;">Story Action</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+              style="font-weight: bold;font-family: cursive; color: white;">
+              Dowload Picture
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"
+                  style="font-weight: bold;font-family: cursive; color: black;">Action</a></li>
+              <li><a class="dropdown-item" href="#"
+                  style="font-weight: bold;font-family: cursive; color: black;">Suit</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#"
+                  style="font-weight: bold;font-family: cursive; color: black;">Artist</a></li>
+            </ul>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" style="font-weight: bold;">Disabled</a>
+          </li> -->
+        </ul>
+        <form class="d-flex" role="search" style="width: 50%;">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+            style="font-family: cursive;">
+          <button class="btn btn-outline-light" style="color: black; font-family: cursive;"
+            type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <form style="width: 50%; margin-left: 38%; padding-top: 50px;font-family: cursive;">
+    <!-- Email input -->
+    <h3 style="text-align: center; width: 50%;">Đăng Nhập</h3>
+    <div class="form-outline mb-4">
+      <label class="form-label" for="form2Example1">User</label>
+      <input type="email" id="form2Example1" class="form-control" style="width: 50%;" placeholder="Username or Email" />
+    </div>
+
+    <!-- Password input -->
+    <div class="form-outline mb-4">
+      <label class="form-label" for="form2Example2">Password</label>
+      <input type="password" id="form2Example2" class="form-control" style="width: 50%;" placeholder="Password" />
+    </div>
+
+    <!-- 2 column grid layout for inline styling -->
+    <div class="row mb-4" style="padding-right: 41%">
+      <div class="col d-flex justify-content-center">
+        <!-- Checkbox -->
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+          <label class="form-check-label" for="form2Example31"> Ghi nhớ đăng nhập
+          </label>
+        </div>
+      </div>
+
+      <div class="col">
+        <!-- Simple link -->
+        <a href="#!" style="text-decoration: none;">Quên mật khẩu?</a>
+      </div>
+    </div>
+
+    <!-- Submit button -->
+    <div style="width: 50%; padding-left: 90px;">
+      <button type="button" class="btn btn-dark btn-block mb-4" style="width: 200px;"><span>Đăng Nhập</span></button>
+    </div>
+    <!-- Register buttons -->
+    <div class="text-center" style="padding-bottom: 50px; padding-right: 380px;">
+      <p>Chưa có tài khoản? <a href="Register.html" style="text-decoration: none;">Đăng Ký</a></p>
+      <p>Hoặc đăng nhập bằng :</p>
+      <div class="container">
+        <a href="" style="text-decoration: none; padding-right: 20px; font-size: 40px;">
+          <i class="fa-brands fa-square-facebook"></i>
+        </a>
+        <a href="" style="text-decoration: none; font-size: 40px;">
+          <i class="fa-brands fa-square-google-plus"></i>
+        </a>
+      </div>
+    </div>
+  </form>
+  <!-- Footer -->
+  <footer class="bg-secondary text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Presents By Tokusatsu</h5>
+
+          <p>
+            Tokusatsu (特撮とくさつ, lit. 'special effects') is a Japanese term for live action film or television drama
+            that makes heavy use of practical special effects. Tokusatsu entertainment mainly refers to science
+            fiction, war, fantasy, or horror media featuring such technology but is sometimes dubbed a genre itself.
+            The most popular subgenres of tokusatsu include kaiju such as the Godzilla and Gamera series; superhero
+            such as the Kamen Rider and Metal Hero series; and mecha like Giant Robo and Super Robot Red Baron. Some
+            tokusatsu television programs combine several of these subgenres, for example the Ultraman and Super
+            Sentai series.
+          </p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0" style="padding-left: 140px;">
+          <h5 class="text-uppercase">TV Series</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-0">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="https://en.wikipedia.org/wiki/Kamen_Rider">en.wikipedia.org/wiki/Kamen_Rider</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
